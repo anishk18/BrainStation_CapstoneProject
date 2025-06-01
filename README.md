@@ -69,12 +69,3 @@ The dataset used is the **UCI Individual Household Electric Power Consumption Da
 
 
 
-
-
-#### Dataset
-
-... Google Drive links to datasets and pickled models
-
-### Credits & References
-
-... Include any personal learning
