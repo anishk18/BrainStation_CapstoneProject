@@ -1,6 +1,6 @@
 # Forecasting Household Electricity Usage
 
-=========================
+
 # 🧠 Project Overview
 
 ## Problem Area
