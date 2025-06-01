@@ -1,8 +1,8 @@
 # Forecasting Household Electricity Usage
-------------------------------------------------------------------------------
 
-# 🧠 Project Overview
 =========================
+# 🧠 Project Overview
+
 ## Problem Area
 
 With the increasing urgency around climate change and energy sustainability, improving residential energy efficiency is a critical focus. In many households, energy usage patterns are not monitored or optimized, leading to wastage, increased costs, and higher carbon footprints. Smart grids and energy-aware applications can help users understand and adjust their energy consumption habits—but only if they’re powered by meaningful insights derived from real-world data.
