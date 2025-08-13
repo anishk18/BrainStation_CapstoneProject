@@ -1,3 +1,5 @@
+
+
 # Forecasting Household Electricity Usage
 
 
@@ -36,7 +38,7 @@ This solution aims to:
 - Inform broader sustainability goals by contributing to more efficient energy use at the household level.
 - Lay groundwork for future integration with smart home and IoT systems that automate energy optimization.
 
-## Dataset Description
+## Dataset Descriptions
 
 The dataset used is the **UCI Individual Household Electric Power Consumption Data Set**. It contains over **2 million measurements** gathered from a single household in Sceaux, France between **December 2006 and November 2010**.
 
@@ -62,10 +64,4 @@ The dataset used is the **UCI Individual Household Electric Power Consumption Da
 | **Sub_metering_2**       | float     | Energy (in watt-hours) for laundry appliances (washing machine, dryer, etc.) |
 | **Sub_metering_3**       | float     | Energy (in watt-hours) for water heater and air conditioning |
 | **Unmeasured energy**    | float     | Derived feature: energy not captured by sub meters (optional for modeling) |
-
-
-
-
-
-
 
