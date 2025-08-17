@@ -50,7 +50,7 @@ The dataset used is the **UCI Individual Household Electric Power Consumption Da
 - The dataset is rich enough to enable time series modeling and seasonality detection.
 - Missing values and noisy readings are present, requiring cleaning and preprocessing.
 
-## Data Dictionary
+### Data Dictionary
 
 | Column Name              | Data Type | Description |
 |--------------------------|-----------|-------------|
@@ -72,7 +72,7 @@ The other dataset is imported from **OpenMeteo API**, the dataset is related to 
 - Data is collected in **1-hour intervals**
 - No missing values or noisy readings are present, requiring no cleaning and preprocessing.
 
-# Data Dictionary
+### Data Dictionary
 
 | Column Name              | Type      | Unit   | Category | Description|
 |--------------------------|-----------|--------|----------|------------|
