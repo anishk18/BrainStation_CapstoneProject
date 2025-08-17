@@ -1,6 +1,6 @@
 
 
-# Forecasting Household Electricity Usage
+# Forecasting Household Energy Usage
 
 
 # 🧠 Project Overview
@@ -40,7 +40,7 @@ This solution aims to:
 
 ## Dataset Descriptions
 
-The dataset used is the **UCI Individual Household Electric Power Consumption Data Set**. It contains over **2 million measurements** gathered from a single household in Sceaux, France between **December 2006 and November 2010**.
+The dataset used is the **UCI Individual Household Electric Power Consumption Data Set**. It contains over **2 million measurements** gathered from a single household in Sceaux,Paris, France between **December 2006 and November 2010**.
 
 **Source:** UCI Machine Learning Repository  
 **Link:** [https://archive.ics.uci.edu/ml/datasets/individual+household+electric+power+consumption](https://archive.ics.uci.edu/ml/datasets/individual+household+electric+power+consumption)
@@ -63,5 +63,46 @@ The dataset used is the **UCI Individual Household Electric Power Consumption Da
 | **Sub_metering_1**       | float     | Energy (in watt-hours) for kitchen appliances (dishwasher, oven, microwave) |
 | **Sub_metering_2**       | float     | Energy (in watt-hours) for laundry appliances (washing machine, dryer, etc.) |
 | **Sub_metering_3**       | float     | Energy (in watt-hours) for water heater and air conditioning |
-| **Unmeasured energy**    | float     | Derived feature: energy not captured by sub meters (optional for modeling) |
 
+
+
+
+|---------------------------|----------|--------|--------------|-----------------------------------------------------------------------------|
+| **Global_active_power**   | float64  | kW     | Electrical   | Household global active power consumption, i.e., actual power used.         |
+| **Global_reactive_power** | float64  | kVar   | Electrical   | Household global reactive power, i.e., power stored/released by loads.      |
+| **Voltage**               | float64  | V      | Electrical   | Voltage measured across the household circuit.                               |
+| **Global_intensity**      | float64  | A      | Electrical   | Current flowing through the circuit.                                        |
+| **Sub_metering_1**        | float64  | Wh     | Energy       | Energy sub-metered from kitchen appliances (e.g., dishwasher, microwave).   |
+| **Sub_metering_2**        | float64  | Wh     | Energy       | Energy sub-metered from laundry appliances (e.g., washer, dryer).           |
+| **Sub_metering_3**        | float64  | Wh     | Energy       | Energy sub-metered from climate control systems (e.g., AC, heater).         |
+
+
+
+
+
+
+The other dataset is imported from **OpenMeteo API**, the dataset is related to weather features. It contains over **34,00 rows** illustrating weather metrics from Paris, France between **December 2006 and November 2010**.
+
+### Key Characteristics:
+- Data is collected in **1-hour intervals**
+- No missing values or noisy readings are present, requiring no cleaning and preprocessing.
+
+# Data Dictionary
+
+| Column Name            | Type     | Unit   | Category | 
+| **temperature_2m**        | float64  | °C     | Weather      | Outdoor air temperature measured at 2 meters above ground.                  |
+| **relative_humidity_2m**  | float64  | %      | Weather      | Relative humidity of air at 2 meters above ground.                          |
+| **dew_point_2m**          | float64  | °C     | Weather      | Dew point temperature at 2 meters above ground.                             |
+| **apparent_temperature**  | float64  | °C     | Weather      | Feels-like temperature considering wind and humidity.                       |
+| **surface_pressure**      | float64  | hPa    | Weather      | Atmospheric surface pressure.                                               |
+| **cloudcover**            | float64  | %      | Weather      | Fraction of sky covered by clouds.                                          |
+| **windspeed_10m**         | float64  | m/s    | Weather      | Wind speed measured at 10 meters above ground.                              |
+| **windgusts_10m**         | float64  | m/s    | Weather      | Wind gusts measured at 10 meters above ground.                              |
+| **winddirection_10m**     | float64  | °      | Weather      | Wind direction at 10 meters above ground.                                   |
+| **shortwave_radiation**   | float64  | W/m²   | Solar        | Incoming shortwave solar radiation.                                         |
+| **direct_radiation**      | float64  | W/m²   | Solar        | Direct beam solar radiation.                                                |
+| **diffuse_radiation**     | float64  | W/m²   | Solar        | Diffuse (scattered) solar radiation.                                        |
+
+
+
+Description                                                                 |
