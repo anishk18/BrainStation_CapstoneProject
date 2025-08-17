@@ -64,18 +64,6 @@ The dataset used is the **UCI Individual Household Electric Power Consumption Da
 | **Sub_metering_2**       | float     | Energy (in watt-hours) for laundry appliances (washing machine, dryer, etc.) |
 | **Sub_metering_3**       | float     | Energy (in watt-hours) for water heater and air conditioning 
 
-|-----------------------------------------------------------------------------|
-| **Global_active_power**   | float64  | kW     | Electrical   | Household global active power consumption, i.e., actual power used.         |
-| **Global_reactive_power** | float64  | kVar   | Electrical   | Household global reactive power, i.e., power stored/released by loads.      |
-| **Voltage**               | float64  | V      | Electrical   | Voltage measured across the household circuit.                               |
-| **Global_intensity**      | float64  | A      | Electrical   | Current flowing through the circuit.                                        |
-| **Sub_metering_1**        | float64  | Wh     | Energy       | Energy sub-metered from kitchen appliances (e.g., dishwasher, microwave).   |
-| **Sub_metering_2**        | float64  | Wh     | Energy       | Energy sub-metered from laundry appliances (e.g., washer, dryer).           |
-| **Sub_metering_3**        | float64  | Wh     | Energy       | Energy sub-metered from climate control systems (e.g., AC, heater).         |
-
-
-
-
 
 
 The other dataset is imported from **OpenMeteo API**, the dataset is related to weather features. It contains over **34,00 rows** illustrating weather metrics from Paris, France between **December 2006 and November 2010**.
@@ -101,6 +89,3 @@ The other dataset is imported from **OpenMeteo API**, the dataset is related to 
 | **direct_radiation**      | float64  | W/m²   | Solar        | Direct beam solar radiation.                                                |
 | **diffuse_radiation**     | float64  | W/m²   | Solar        | Diffuse (scattered) solar radiation.                                        |
 
-
-
-Description                                                                 |
