@@ -62,12 +62,9 @@ The dataset used is the **UCI Individual Household Electric Power Consumption Da
 | **Global_intensity**     | float     | Average current intensity (in amperes) |
 | **Sub_metering_1**       | float     | Energy (in watt-hours) for kitchen appliances (dishwasher, oven, microwave) |
 | **Sub_metering_2**       | float     | Energy (in watt-hours) for laundry appliances (washing machine, dryer, etc.) |
-| **Sub_metering_3**       | float     | Energy (in watt-hours) for water heater and air conditioning |
+| **Sub_metering_3**       | float     | Energy (in watt-hours) for water heater and air conditioning 
 
-
-
-
-|---------------------------|----------|--------|--------------|-----------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|
 | **Global_active_power**   | float64  | kW     | Electrical   | Household global active power consumption, i.e., actual power used.         |
 | **Global_reactive_power** | float64  | kVar   | Electrical   | Household global reactive power, i.e., power stored/released by loads.      |
 | **Voltage**               | float64  | V      | Electrical   | Voltage measured across the household circuit.                               |
@@ -89,8 +86,9 @@ The other dataset is imported from **OpenMeteo API**, the dataset is related to 
 
 # Data Dictionary
 
-| Column Name            | Type     | Unit   | Category | 
-| **temperature_2m**        | float64  | °C     | Weather      | Outdoor air temperature measured at 2 meters above ground.                  |
+| Column Name              | Type      | Unit   | Category | Description|
+|--------------------------|-----------|--------|----------|------------|
+| **temperature_2m**       | float64   | °C     | Weather  | Outdoor air temperature measured at 2 meters above ground |
 | **relative_humidity_2m**  | float64  | %      | Weather      | Relative humidity of air at 2 meters above ground.                          |
 | **dew_point_2m**          | float64  | °C     | Weather      | Dew point temperature at 2 meters above ground.                             |
 | **apparent_temperature**  | float64  | °C     | Weather      | Feels-like temperature considering wind and humidity.                       |
