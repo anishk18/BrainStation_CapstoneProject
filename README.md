@@ -19,7 +19,7 @@
 
 ## 🚀 Motivation
 
-Growing electricity demand and climate change require smarter household energy monitoring. This project leverages machine learning and weather data to forecast power usage, reduce costs, and improve sustainability. I also have most been working on timeseries data at work, and would like to understand through this project topic the statistical and ML analysis of time series forecasting.
+Growing electricity demand and climate change require smarter household energy monitoring. This project leverages machine learning and weather and solar data metrics to forecast energy consumption. I also have most been working on timeseries data at work, and would like to understand through this project the statistical and ML analysis of time series forecasting.
 
 ---
 
