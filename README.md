@@ -1,23 +1,19 @@
 
 # ⚡ Forecasting Household Energy Usage
+
+
 =========================
-
-
-
 ## 📋 Executive Summary 
 **To be added after Sprint 3**
 
 - **Key Takeaways (so far):**  
   1. Energy demand has a cyclic pattern
   2. Linear Regression Model with Weather Dataset Features, is performing the best so far
-  
-
 ---
 
 ## 🚀 Motivation
 
 Growing electricity demand and climate change require smarter household energy monitoring. This project leverages machine learning and weather and solar data metrics to forecast energy consumption. I also have most been working on timeseries data at work, and would like to understand through this project the statistical and ML analysis of time series forecasting.
-
 ---
 
 ## 🧠 Project Overview
@@ -127,8 +123,6 @@ High-level view of the process:
 
 ---
 
----
-
 ## 🎯 Progress
 
 ✅ Data cleaning and preprocessing  
@@ -152,7 +146,6 @@ High-level view of the process:
   Upload a walkthrough GIF or Loom/Youtube video link here.  
 
 ---
-
 
 ## 📂 Organization
 
