@@ -2,9 +2,6 @@
 # ⚡ Forecasting Household Energy Usage
 =========================
 
-![Project Banner](https://via.placeholder.com/1000x250.png?text=Your+Project+Banner+Here)
-
----
 
 
 ## 📋 Executive Summary 
@@ -114,17 +111,16 @@ The other dataset is imported from **OpenMeteo API**, the dataset is related to 
 
 High-level view of the process:
 
-![Pipeline Diagram](https://via.placeholder.com/900x400.png?text=Data+Pipeline+Diagram)
 
 1. **Data Processing**  
    - Data cleaning, handling missing values, normalization  
    - Feature engineering (weather, lag features, rolling averages)  
 
-2. **Modeling**  
+2. **Modeling** 
    - Classical ML models: Random Forest, XGBoost  
    - Deep learning models: LSTM, Transformer-based approaches  
 
-3. **Prototyping & Deployment**  -In progress
+3. **Prototyping & Deployment**
    - Streamlit for interactive dashboards  
    - Joblib dumps for reproducible ML models  
    - Containerization (Docker) for portability  
