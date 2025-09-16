@@ -1,14 +1,36 @@
 
 # ⚡ Forecasting Household Energy Usage
 
-
 =========================
-## 📋 Executive Summary 
-**To be added after Sprint 3**
 
-- **Key Takeaways (so far):**  
-  1. Energy demand has a cyclic pattern
-  2. Linear Regression Model with Weather Dataset Features, is performing the best so far
+## 📋 Executive Summary
+
+This project developed a robust energy consumption forecasting solution for households, enabling optimized energy management and cost savings.
+
+**Objective:**  
+Accurately predict short-term (1–24 hour) residential energy usage using time series and machine learning models.
+
+**Datasets:**  
+- UCI Household Power Consumption  
+- Local weather metrics (temperature, humidity, etc.)
+
+**Methodology:**  
+Applied ARIMA, Prophet, SARIMA, and XGBoost; XGBoost delivered the best accuracy.
+
+**Key Findings:**  
+- Strong daily/weekly/seasonal patterns  
+- Consumption varies by weekday/weekend  
+- Weather factors (temperature, humidity) are highly correlated
+
+**Model Performance:**  
+XGBoost outperformed other models (lowest RMSE/MAE).
+
+**Impact:**  
+Supports demand-side management, cost reduction, grid stability, and smart home integration.
+
+**Recommendations:**  
+Integrate XGBoost into operations, pilot real-time applications, and expand feature engineering with smart meter data.
+
 ---
 
 ## 🚀 Motivation
@@ -128,8 +150,8 @@ High-level view of the process:
 ✅ Data cleaning and preprocessing  
 ✅ Exploratory data analysis (EDA) with visualizations  
 ✅ Feature engineering with weather data  
-🚧 Model experimentation (Regression, ARIMA,  XGBoost, LSTM)  
-🚧 Deployment using Streamlit  
+✅ Model experimentation (Regression, ARIMA,  XGBoost)  
+✅ Deployment using Streamlit -local current expanding to updating it on site
 🔜 Cloud integration (AWS/GCP for scalable deployment)  
 
 ---
